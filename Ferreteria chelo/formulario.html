@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/logotipo.jpeg">
+
+    <title>Registro
+    </title>
+</head>
+<body>
+
+
+<header>
+
+<div class="contenedor">
+<h2 class="logotipo">CHELO</h2>
+<nav>
+    
+    <ul>
+
+    <a href="index.html" class="activo">INICIO</a>
+  
+  </ul>
+</nav>
+
+</div>
+
+</header>
+
+<section class="form-register">
+    <form method="post">
+    	<h1>REGISTRATE</h1>
+    	<input class="controls" type="text" name="nombre_completo" placeholder="Nombre completo">
+    	<input class="controls" type="email" name="email" placeholder="Email">
+    	<input class="controls" type="password" name="contrasena" placeholder="Contraseña">
+    	<input class="botons" type="submit" name="Registrarse">
+    </form>
+
+    <?php 
+    include("registrar.php");
+    ?>
+
+</section>
+
+<style>
+*{
+
+text-decoration: none;
+
+}
+
+body{
+  background:  url(Estilos/imagenes/FONNDO.avif);
+  background-repeat:no-repeat ;
+height: 900px;
+background-size: cover;
+margin: 0;
+text-align: center;
+
+}
+
+
+header{
+background: #00000025;
+height: 124px;
+color: white;
+}
+
+
+header a{
+margin-top: 230px;
+color: #000;
+background-color: #1f53c5;
+border-radius: 30px;
+padding: 20px;
+margin-top:90px ;
+}
+
+
+
+
+
+
+
+
+
+
+header a:hover{
+  background: linear-gradient(to right, #6C063F, #FEE715);
+
+
+
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+ul{
+margin-top: 30px;
+
+
+}
+
+
+
+
+form {
+
+margin:auto;
+  width: 400px;
+  background: linear-gradient(to right, #6C063F, #FEE715);
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 14px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
+	&:hover {
+		color: #ffffff;
+	}
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+
+
+
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+
+.botons:hover{
+
+background-color:white;
+color: black;
+transition: calc(1.3s);
+cursor: pointer;
+
+
+}
+
+
+
+
+
+</style>
+
+
+
+
+
+
+</body>
+</html>
+
+
+</body>
+</html>

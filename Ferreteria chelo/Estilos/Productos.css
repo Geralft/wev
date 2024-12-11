@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+
+.logo{
+text-decoration: none;
+color: white;
+
+}
+
+
+
+.logotipo{
+width: 100px;
+margin-left: -100px;
+height: 100px;
+border-radius: 40px;
+
+}
+
+
+
+
+#inicio .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ 
+
+
+
+
+#inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: #50d6ff;
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+    color: #50ffd3;
+}
+
+#inicio .contenido header .contenido-header .redes a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover {
+    color: #50b0ff;
+}
+
+#inicio .contenido header .contenido-header .seleccionado {
+    color: #50d6ff;
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: #50ffff;
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover {
+    background-color: #50dcff;
+    color: #000;
+    transition: 1S;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+
+/* seccion S O B R E  M I */
+
+#sobremi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 100px 15px;
+    color: #111135;
+    display: flex;
+}
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+}
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#sobremi .sobremi h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi h2 span {
+    color: #50cdff;
+}
+
+#sobremi .sobremi h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#sobremi .sobremi p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+    margin-bottom: 12px;
+}
+
+#sobremi .sobremi a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#sobremi .sobremi a:hover {
+    background-color: #50c8ff;
+    color: #fff;
+}
+
+
+
+
+.card-container{
+
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    margin-left: 50px;
+    
+      }
+    
+      .card{
+    
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px rgba(0,0,0,0..2);
+    cursor: default;
+    transition:  all 400ms ease;
+      }
+
+      .card:hover{
+
+box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+transform: translateY(-5%);
+
+
+      }
+
+
+
+      .card img{
+
+width: 100%;
+height: 210px;
+
+      }
+
+      .card .contenido{
+
+padding: 15px;
+text-align:center ;
+background-color: white;
+      }
+
+      .card .contenido p {
+line-height: 1.5;
+      color:black;
+
+      }
+
+
+      
+      .card .contenido h3 {
+       font-weight: 400;
+       margin-bottom: 15px;
+        
+                      }
+
+
+                      .card .contenido a {
+                     text-decoration: none;
+                     display: inline-block;
+                     padding: 10px;
+                         margin-top: 10px;
+                         color:#2FB4CC;
+                         border:1px solid #2FB4CC;
+                         border-radius: 4px;
+                         transition: all 400ms ease;
+                                       }
+
+
+
+                                       .card .contenido a:hover {
+color: white;
+background-color: #2FB4CC;
+
+
+                                       }
+
+
+
+
+                                       
+    .Sobremi{
+        font-family: 'Righteous';
+        color: wheat;
+        padding: 50px 20px;
+        margin-left:150px;
+        
+        
+                    }
+        
+                    .Sobremi .contenido-seccion{
+        
+        max-width: 1100px;
+        margin: auto;
+        margin-left:-400px;
+        
+                    }
+        
+        
+        
+                    .Sobremi h2{
+        
+        font-size: 48px;
+        font-family: 'Righteous';
+        text-align: center;
+        padding: 20px 0;
+                    }
+        
+        
+                    .Sobremi .contenido-seccion p{
+        
+        font: 18px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        
+        
+                    }
+        
+        
+                    .Sobremi .contenido-seccion p span{
+        color: aqua;
+        font-weight: bold;
+        
+        
+        
+                    }
+        
+        
+                    .Sobremi .fila{
+        
+        
+        display: flex;
+        
+        
+                    }
+        
+        
+                    .Sobremi .fila .col{
+        
+        width: 50%;
+        
+                    }
+        
+        
+                    
+                    .Sobremi .fila .col h3{
+        
+        font-size: 28px;                
+        margin-bottom: 25px;               
+        
+        }
+        
+        
+        
+                    
+        .Sobremi .fila .col ul{
+        
+         list-style:none ;
+            }
+        
+        
+            
+                    
+            .Sobremi .fila .col ul li{
+        
+         margin: 12px 0;             
+                
+                }
+        
+        
+                
+                    
+                .Sobremi .fila .col ul li strong{
+        display: inline-block;
+        color: black;
+        width: 130px;
+                    }
+        
+        
+        
+                    
+                    
+                    .Sobremi .fila .col ul li span{
+        
+                      background-color: aqua;
+                      padding: 3px;
+                      font-weight: bold;
+                      border-radius: 5px; 
+                      color: black;
+                        }
+        
+        
+                        
+                    
+                    .Sobremi .fila .col .contenedor-Intereses{
+        display: flex;
+        flex-wrap: wrap;
+                        }
+        
+        .contenedor-Intereses{
+                            width: 50px;
+         
+        
+        }
+        
+        
+        
+        
+                        .Sobremi .fila .col .contenedor-Intereses .Interes{
+                         width: 150px;
+                         height: 150px;
+                         background-color: #1e2326;
+                         border-radius: 10px;
+                         margin: 0 15px 0;
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                         justify-content: center;
+                         transition: .3s;
+                                            }
+        
+        
+                                            .Sobremi .fila .col .contenedor-Intereses .Interes:hover{
+        
+        background-color: rgba(0, 255, 255, 0.411);
+                                            }
+        
+        
+                                            .Sobremi button{
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid white;
+        width:fit-content;
+        display: block;
+        margin: 20px auto;
+        padding: 10px 22px;
+        font-size: 16px;
+        color: white;
+        z-index: 10;
+        Width:550px;
+                                                
+                                            }
+        
+        
+                                            .Sobremi button .overlaya{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: aqua;            
+        z-index: .1;
+        transition: 3s;
+        }
+        
+        
+        .Sobremi button:hover{
+        transition: 3s;
+        background-color: aqua;
+        color: #0a0b0c;
+        }
+        
+        
+     
+        
+             
+/* Targetas giratorias*/
+
+
+.card {
+  width: 300px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+
+
+
+
+
+.card-content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+
+display: c;
+}
+
+
+.card:hover .card-content {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  background-color: #f8f8f8;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 20px;
+  color: #333333;
+}
+
+.card p {
+  margin-top: 10px;
+  color: #666666;
+  text-align: justify;
+}
+
+.card-subtitle {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}

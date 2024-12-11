@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background: #000000;
+    position: fixed;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    line-height: 65px;
+    color: #fff;
+}
+.menu{
+    float: right;
+    line-height: 65px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: #754444;
+    color: #fff;
+}
+.menu .submenu{
+    background: #fff;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+/*estilos para la portada*/
+.portada{
+    width: 100%;
+    height: 980px;
+background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+section {
+    display: flex;
+    width: 1500px;
+    height: 630px;
+    margin-left: -150px;
+    margin-top: -850px;
+}
+
+section a {
+    flex-grow: 1;
+}
+
+section img {
+    width: 390px;
+    height: 630px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+ .Linea{
+background: #0000006c;
+height: 20px;
+margin-left: 150px;
+width: 1560px;
+margin-left: -200px;
+
+
+
+ }
+
+
+
+
+
+
+
+ 
+  .contacto .contenido-banner{
+padding: 20px;
+background-color: #1e2326;
+max-width: auto;
+text-align: center;
+border-radius: 40px;
+margin-top:60px ;
+margin-left: 150px;
+
+        }
+
+        .contacto .contenido-banner img{
+border: 10px solid aqua;
+margin: auto;
+margin-top: 50px;
+border-radius: 100%;
+        }
+
+
+
+        .contacto .contenido-banner H1{
+margin-top: 40px;
+font-size: 42px;
+font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+
+        .contacto .contenido-banner H2{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+                    }
+            
+
+                    .contacto .contenido-banner .redes a{
+
+color: white;
+            display: inline-block;       
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        margin: 40px 5px;
+        font-size: 20px;
+        transition: .3s;
+        }
+
+
+
+        .contacto .contenido-banner .redes a:hover{
+background-color: #1d1f1e4d;
+transition: 3s;
+background-color: aqua;
+color: #0a0b0c;
+            }
+
+            .Sobremi{
+background-color: #0a0b0c;
+font-family: 'Righteous';
+color: wheat;
+padding: 50px 20px;
+border-radius: 5px;
+            }
+
+
+
+            .Sobremi .contenido-seccion{
+
+max-width: 1100px;
+margin: auto;
+
+
+            }
+
+
+
+            .Sobremi h2{
+
+font-size: 48px;
+font-family: 'Righteous';
+text-align: center;
+padding: 20px 0;
+            }
+
+
+            .Sobremi .contenido-seccion p{
+
+font: 18px;
+line-height: 22px;
+margin-bottom: 20px;
+
+
+            }
+
+
+            .Sobremi .contenido-seccion p span{
+color: aqua;
+font-weight: bold;
+
+
+
+            }
+
+
+            .Sobremi .fila{
+
+
+display: flex;
+
+
+            }
+
+
+            .Sobremi .fila .col{
+
+width: 50%;
+
+            }
+
+
+            
+            .Sobremi .fila .col h3{
+
+font-size: 28px;                
+margin-bottom: 25px;               
+
+}
+
+
+
+            
+.Sobremi .fila .col ul{
+
+ list-style:none ;
+    }
+
+
+    
+            
+    .Sobremi .fila .col ul li{
+
+ margin: 12px 0;             
+        
+        }
+
+
+        
+            
+        .Sobremi .fila .col ul li strong{
+display: inline-block;
+color: rgb(255, 255, 255);
+width: 130px;
+            }
+
+
+
+            
+            
+            .Sobremi .fila .col ul li span{
+
+              background-color: aqua;
+              padding: 3px;
+              font-weight: bold;
+              border-radius: 5px; 
+              color: black;
+                }
+
+
+                
+            
+            .Sobremi .fila .col .contenedor-Intereses{
+display: flex;
+flex-wrap: wrap;
+                }
+
+                 
+                .Sobremi .fila .col .contenedor-Intereses .Interes{
+                 width: 100px;
+                 height: 100px;
+                 background-color: #1e2326;
+                 border-radius: 10px;
+                 margin: 0 15px 0;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: center;
+                 transition: .3s;
+                                    }
+
+
+                                    .Sobremi .fila .col .contenedor-Intereses .Interes:hover{
+
+background-color: rgba(0, 255, 255, 0.411);
+                                    }
+
+
+                                    .Sobremi button{
+cursor: pointer;
+background-color: transparent;
+border: 2px solid white;
+width:fit-content;
+display: block;
+margin: 20px auto;
+padding: 10px 22px;
+font-size: 16px;
+color: white;
+z-index: 10;
+
+                                        
+                                    }
+
+
+                                    .Sobremi button .overlaya{
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background-color: aqua;            
+z-index: .1;
+transition: 3s;
+}
+
+
+.Sobremi button:hover{
+transition: 3s;
+background-color: aqua;
+color: #0a0b0c;
+}
+
+keyfra,
